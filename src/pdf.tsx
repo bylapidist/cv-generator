@@ -1,31 +1,34 @@
 import React from 'react';
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, StyleSheet, Text, View } from '@react-pdf/renderer';
+import Logo from './components/Logo';
 
-// Create styles
 const styles = StyleSheet.create({
     page: {
-        flexDirection: 'row',
-        backgroundColor: '#FFFFFF'
+        flexDirection: 'column',
+        backgroundColor: '#FFFFFF',
+        marginHorizontal: 42,
+        marginVertical: 28
     },
-    section: {
-        margin: 10,
-        padding: 10,
-        flexGrow: 1
-    }
+    header: {},
+    section: {}
 });
 
-// Create Document Component
-const MyDocument = () => (
+const PDF = () => (
     <Document>
         <Page size="A4" style={styles.page}>
-            <View style={styles.section}>
-                <Text>Section #1</Text>
+            <View style={styles.header}>
+                <Logo />
+                <Text>Brett Dorrans</Text>
+                <Text>Senior Front End Software Engineer</Text>
             </View>
             <View style={styles.section}>
-                <Text>Section #2</Text>
+                <Text>Experience</Text>
+            </View>
+            <View style={styles.section}>
+                <Text>Contact</Text>
             </View>
         </Page>
     </Document>
 );
 
-export default MyDocument;
+export default PDF;

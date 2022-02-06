@@ -41,8 +41,7 @@
     },
     "dependencies": {
         "@react-pdf/renderer": "2.1.1",
-        "react": "17.0.2",
-        "styled-components": "^5.3.3"
+        "react": "17.0.2"
     },
     "devDependencies": {
         "@lapidist/linting": "2.123.1",

@@ -7,6 +7,7 @@ import {
     StyleSheet,
     Font
 } from '@react-pdf/renderer';
+import Logo from './components/Logo';
 
 Font.register({
     family: 'Montserrat',
@@ -29,35 +30,37 @@ Font.register({
     ]
 });
 
-// Create styles
 const styles = StyleSheet.create({
     page: {
         fontFamily: 'Montserrat',
-        flexDirection: 'row',
-        backgroundColor: '#FFFFFF'
+        flexDirection: 'column',
+        backgroundColor: '#FFFFFF',
+        marginHorizontal: 42,
+        marginVertical: 28
     },
     name: {
         fontWeight: 'bold'
     },
-    section: {
-        margin: 10,
-        padding: 10,
-        flexGrow: 1
-    }
+    header: {},
+    section: {}
 });
 
-// Create Document Component
-const MyDocument = () => (
+const PDF = () => (
     <Document>
         <Page size="A4" style={styles.page}>
-            <View style={styles.section}>
-                <Text style={styles.name}>Section #1</Text>
+            <View style={styles.header}>
+                <Logo />
+                <Text style={styles.name}>Brett Dorrans</Text>
+                <Text>Senior Front End Software Engineer</Text>
             </View>
             <View style={styles.section}>
-                <Text>Section #2</Text>
+                <Text>Experience</Text>
+            </View>
+            <View style={styles.section}>
+                <Text>Contact</Text>
             </View>
         </Page>
     </Document>
 );
 
-export default MyDocument;
+export default PDF;

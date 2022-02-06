@@ -1,11 +1,43 @@
 import React from 'react';
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+import {
+    Page,
+    Text,
+    View,
+    Document,
+    StyleSheet,
+    Font
+} from '@react-pdf/renderer';
+
+Font.register({
+    family: 'Montserrat',
+    fonts: [
+        {
+            src: `./fonts/Montserrat-Regular.ttf`
+        },
+        {
+            src: `./fonts/Montserrat-Bold.ttf`,
+            fontWeight: 'bold'
+        },
+        {
+            src: `./fonts/Montserrat-Medium.ttf`,
+            fontWeight: 'medium'
+        },
+        {
+            src: `./fonts/Montserrat-SemiBold.ttf`,
+            fontWeight: 'semibold'
+        }
+    ]
+});
 
 // Create styles
 const styles = StyleSheet.create({
     page: {
+        fontFamily: 'Montserrat',
         flexDirection: 'row',
         backgroundColor: '#FFFFFF'
+    },
+    name: {
+        fontWeight: 'bold'
     },
     section: {
         margin: 10,
@@ -19,7 +51,7 @@ const MyDocument = () => (
     <Document>
         <Page size="A4" style={styles.page}>
             <View style={styles.section}>
-                <Text>Section #1</Text>
+                <Text style={styles.name}>Section #1</Text>
             </View>
             <View style={styles.section}>
                 <Text>Section #2</Text>

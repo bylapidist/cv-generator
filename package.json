@@ -44,7 +44,7 @@
         "react": "17.0.2"
     },
     "devDependencies": {
-        "@lapidist/linting": "2.125.0",
+        "@lapidist/linting": "2.125.1",
         "@types/jest": "27.4.0",
         "@types/react": "17.0.39",
         "cross-env": "7.0.3",

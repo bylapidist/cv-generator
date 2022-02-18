@@ -61,7 +61,37 @@ const styles = StyleSheet.create({
     },
     sectionHeader: {
         fontWeight: 'bold',
-        fontSize: 11
+        fontSize: 11,
+        marginBottom: 0
+    },
+    job: {
+        marginBottom: 12,
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap'
+    },
+    position: {
+        fontWeight: 'medium',
+        fontSize: 10,
+        display: 'flex',
+        flexDirection: 'column',
+        width: '70%'
+    },
+    duration: {
+        fontWeight: 'normal',
+        fontSize: 8,
+        flexDirection: 'column'
+    },
+    description: {
+        width: '100%',
+        marginBottom: 2
+    },
+    technologies: {
+        width: '100%',
+        fontSize: 8
+    },
+    technologiesHeader: {
+        fontWeight: 'semibold'
     }
 });
 
@@ -80,6 +110,32 @@ const PDF = () => (
                 <Text style={styles.sectionHeader}>
                     {copy.sectionHeaders.experience}
                 </Text>
+                {copy.jobs.map((job) => (
+                    <View
+                        key={`${job.company} - ${job.position}`}
+                        style={styles.job}
+                    >
+                        <Text style={styles.position}>
+                            {job.company} &ndash; {job.position}
+                        </Text>
+                        <Text style={styles.duration}>
+                            {job.from}&ndash;{job.to}
+                        </Text>
+                        {job.description && (
+                            <Text style={styles.description}>
+                                {job.description}
+                            </Text>
+                        )}
+                        {job.technologies && (
+                            <Text style={styles.technologies}>
+                                <Text style={styles.technologiesHeader}>
+                                    Technologies:{' '}
+                                </Text>
+                                <Text>{job.technologies.join(', ')}</Text>
+                            </Text>
+                        )}
+                    </View>
+                ))}
             </View>
             <View style={styles.section}>
                 <Text style={styles.sectionHeader}>

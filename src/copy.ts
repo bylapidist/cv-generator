@@ -12,8 +12,7 @@ export default {
             position: 'Director',
             from: 'Nov 2016',
             to: 'Present',
-            description:
-                'Produced open source software and provided contract software development services under the auspices of my personal limited company. Managed the full client lifecycle: scoping and pursuing client prospects, delivering on time and on budget, and ensured accounts and company administration are legally compliant.',
+            description: null,
             technologies: [
                 'React',
                 'Redux',

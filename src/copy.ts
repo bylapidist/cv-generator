@@ -10,7 +10,6 @@ export default {
         email: 'hello@lapidist.net',
         phone: '07944166857',
         urls: [
-            'lapidist.net',
             'github.com/brettdorrans',
             'github.com/bylapidist',
             'linkedin.com/in/brettdorrans'

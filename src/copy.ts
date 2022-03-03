@@ -26,7 +26,8 @@ export default {
                     to: 'Present'
                 }
             ],
-            description: null,
+            description:
+                'Joined an established team of talented engineers, I built design systems and software for the financial sector. Mentored and promoted an inclusive team culture, and pushed for a strong focus on accessibility and research-led development. Closely involved in recruitment pipeline and growing our team, I evangelised an approach to managing people that views each as an individual, fostered a culture of openness, transparency, and respect.',
             technologies: [
                 'React',
                 'Redux',
@@ -107,7 +108,7 @@ export default {
                 }
             ],
             description:
-                'Built enterprise e-commerce software for industry leading fashion brands. Developed tooling, processes and design methodology for design systems. Mentored junior developers and conducted knowledge sharing workshops and talks. Scoped project requirements and regularly travelled to Stockholm to engage with stakeholders including designers, engineers, marketers, IT, and senior management. Advanced company goals, sold features, and improved client relations. Constructed sprints and set sprint goals and chaired agile rituals. Advocated for more robust tooling via automated code quality checks in CI. Evangelised an approach to managing people that views each as an individual, fostered a culture of openness, transparency, and respect.',
+                'Built enterprise e-commerce software for industry leading fashion brands. Developed tooling, processes and design methodology for design systems. Mentored junior developers and conducted knowledge sharing workshops and talks. Scoped project requirements and regularly travelled to Stockholm to engage with stakeholders including designers, engineers, marketers, IT, and senior management. Advanced company goals, sold features, and improved client relations. Constructed sprints and set sprint goals and chaired agile rituals. Advocated for more robust tooling via automated code quality checks in CI.',
             technologies: [
                 'React',
                 'Redux',
@@ -141,8 +142,7 @@ export default {
                     to: 'Sep 2016'
                 }
             ],
-            description:
-                'Led a diverse team of designers and developers producing bespoke web, app, and graphic design. Worked with stakeholders at all levels to grow the startup from zero in-house development to a team of three.',
+            description: null,
             technologies: ['JavaScript', 'PHP', 'SCSS']
         }
     ]

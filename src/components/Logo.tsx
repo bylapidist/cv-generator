@@ -2,6 +2,7 @@ import React from 'react';
 import { Polygon, Svg } from '@react-pdf/renderer';
 
 const Logo = () => (
+    // @ts-ignore
     <Svg
         style={{ width: 32, height: 32, marginBottom: 2 }}
         viewBox="0 0 64 64"

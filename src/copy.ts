@@ -30,9 +30,9 @@ export default {
             technologies: [
                 'React',
                 'Redux',
-                'JavaScript',
+                'Javascript',
                 'Flow',
-                'Jest',
+                'Jest/RTL',
                 'Design Systems',
                 'MySQL',
                 'PHP8',
@@ -54,7 +54,7 @@ export default {
             technologies: [
                 'React',
                 'Redux',
-                'JavaScript',
+                'Javascript',
                 'TypeScript',
                 'Jest',
                 'PHP8',
@@ -84,7 +84,7 @@ export default {
                 'Vue',
                 'Vuex',
                 'Jest',
-                'JavaScript',
+                'Javascript',
                 'PHP7',
                 'Doctrine',
                 'MySQL',
@@ -112,7 +112,7 @@ export default {
                 'React',
                 'Redux',
                 'CSS Modules',
-                'JavaScript',
+                'Javascript',
                 'PHP7',
                 'Doctrine',
                 'MySQL',
@@ -142,7 +142,7 @@ export default {
                 }
             ],
             description: null,
-            technologies: ['JavaScript', 'PHP', 'SCSS']
+            technologies: ['Javascript', 'PHP', 'SCSS']
         }
     ]
 };

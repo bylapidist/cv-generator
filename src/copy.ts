@@ -34,7 +34,7 @@ export default {
                 'Flow',
                 'Jest/RTL',
                 'Design Systems',
-                'MySQL',
+                'Symfony',
                 'PHP8',
                 'OpenAPI',
                 'CI/CD'
@@ -59,7 +59,7 @@ export default {
                 'Jest',
                 'PHP8',
                 'Doctrine',
-                'MySQL',
+                'Symfony',
                 'Java',
                 'CI/CD'
             ]
@@ -87,7 +87,7 @@ export default {
                 'Javascript',
                 'PHP7',
                 'Doctrine',
-                'MySQL',
+                'Symfony',
                 'C#',
                 'CI/CD'
             ]
@@ -114,7 +114,7 @@ export default {
                 'CSS Modules',
                 'Javascript',
                 'PHP7',
-                'Doctrine',
+                'Symfony',
                 'MySQL',
                 'CI/CD'
             ]
@@ -130,7 +130,7 @@ export default {
             ],
             description:
                 'Worked with designers, project managers and clients on e-commerce and web applications. Developed a cross platform mobile app for the Go Industrial museum group. Responsible for scoping timescales and taking ownership of complex project requirements to deliver robust, detail oriented experiences on time and within budget.',
-            technologies: ['Angular2', 'Ionic', 'JavaScript', 'PHP', 'SCSS']
+            technologies: ['Angular2', 'Ionic', 'Javascript', 'PHP', 'SCSS']
         },
         {
             company: 'Ibiza Digital Media',

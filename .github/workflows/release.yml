@@ -45,15 +45,3 @@ jobs:
                   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               run: npx semantic-release
-
-            - name: Build documentation
-              run: |
-                  npm run build:docs
-                  touch docs/.nojekyll
-
-            - name: Deploy documentation
-              uses: JamesIves/github-pages-deploy-action@releases/v3
-              with:
-                  ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
-                  BRANCH: gh-pages
-                  FOLDER: docs

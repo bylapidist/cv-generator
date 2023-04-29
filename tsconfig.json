@@ -37,7 +37,8 @@
         "downlevelIteration": true
     },
     "files": [
-      "./src/index.tsx"
+      "./src/index.ts",
+      "./src/cli.tsx"
     ],
     "exclude": [
         "node_modules",

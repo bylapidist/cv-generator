@@ -1,7 +1,7 @@
 export default {
     name: 'Brett Dorrans',
     title: 'Senior Front End Software Engineer',
-    intro: 'Building ambitious software professionally for over a decade, I have led diverse teams of talented engineers to build cohesive, quality products with a focus on accessibility, inclusive design, and research-led UX. I have worked closely with stakeholders of all levels to break down requirements, align digital strategy, and grow their business. My experience enables me to push technology and products forward; I write clean, semantic code and deliver to the highest standard. With passion and commitment I empower teams, clients and colleagues to grow and reach their highest potential.',
+    intro: "With over a decade of professional software development experience, I've successfully led diverse teams in building high-quality products with a strong emphasis on accessibility, inclusive design, and research-led UX. My collaborative approach involves working closely with stakeholders of all levels to decipher requirements, align digital strategies, and contribute to business growth. Known for meticulous attention to detail, I advocate for best practices and implement automated code quality checks in CI to ensure codebase health. Beyond software development, I am dedicated to empowering teams, clients, and colleagues to reach their full potential by fostering a culture of excellence and delivering work to the highest standard. Throughout my career, I've effectively translated technical complexities into clear, actionable insights, playing a pivotal role in advancing company goals, building client relationships, and ensuring project success.",
     sectionHeaders: {
         experience: 'Experience',
         contact: 'Contact'
@@ -26,7 +26,7 @@ export default {
                 }
             ],
             description:
-                'Joined an established team of talented engineers, I built design systems and software for the financial sector. Mentored and promoted an inclusive team culture, and pushed for a strong focus on accessibility and research-led development. Closely involved in recruitment pipeline and growing our team, I evangelised an approach to managing people that views each as an individual, fostered a culture of openness, transparency, and respect.',
+                'Led a high-performing team of engineers developing design systems and software for a fintech specializing in mortgages. Promoted an inclusive team culture, prioritising accessibility and research-driven development. Actively involved in talent acquisition, advocating a people-centric approach. Managed a smooth migration of the design system from Flow to TypeScript, ensuring enhanced safety and consistency. Successfully championed the adoption of the design system, integrating shareable components, code, and design tokens for improved efficiency. Collaborated with stakeholders to align digital strategies with business objectives.',
             technologies: [
                 'React',
                 'Redux',
@@ -40,30 +40,30 @@ export default {
                 'CI/CD'
             ]
         },
-        {
-            company: 'Lapidist',
-            positions: [
-                {
-                    title: 'Director',
-                    from: 'Nov 2016',
-                    to: 'Present'
-                }
-            ],
-            description:
-                'Produced open source software and provided contract development services. Managed the full client lifecycle: scoping and pursuing clients, delivering on time and on budget, and ensured company is legally compliant.',
-            technologies: [
-                'React',
-                'Redux',
-                'Javascript',
-                'TypeScript',
-                'Jest',
-                'PHP8',
-                'Doctrine',
-                'Symfony',
-                'Java',
-                'CI/CD'
-            ]
-        },
+        // {
+        //     company: 'Lapidist',
+        //     positions: [
+        //         {
+        //             title: 'Director',
+        //             from: 'Nov 2016',
+        //             to: 'Present'
+        //         }
+        //     ],
+        //     description:
+        //         'Produced open source software and provided contract development services.',
+        //     technologies: [
+        //         'React',
+        //         'Redux',
+        //         'Javascript',
+        //         'TypeScript',
+        //         'Jest',
+        //         'PHP8',
+        //         'Doctrine',
+        //         'Symfony',
+        //         'Java',
+        //         'CI/CD'
+        //     ]
+        // },
         {
             company: 'Golden Charter',
             positions: [
@@ -79,7 +79,7 @@ export default {
                 }
             ],
             description:
-                'Built software for the funeral industry as part of the Product and Innovation team. Moved products to a design system and component based workflow. Improved code quality through CI tooling, increased developer productivity through automation of release cycles and adoption of semver, and modernised legacy C# applications. Advocated for accessibility and inclusive design principles, and mentored junior members of the team on best practises.',
+                'Developed software for the funeral industry within the Product and Innovation team. Transitioned products to a design system and component-based workflow. Enhanced code quality with CI tooling, boosted developer productivity by automating release cycles and adopting semver, and modernized legacy C# applications. Advocated for accessibility and inclusive design principles, mentoring junior team members on best practices.',
             technologies: [
                 'Vue',
                 'Vuex',
@@ -107,7 +107,7 @@ export default {
                 }
             ],
             description:
-                'Built enterprise e-commerce software for industry leading fashion brands. Developed tooling, processes and design methodology for design systems. Mentored junior developers and conducted knowledge sharing workshops and talks. Scoped project requirements and regularly travelled to Stockholm to engage with stakeholders including designers, engineers, marketers, IT, and senior management. Advanced company goals, sold features, and improved client relations. Constructed sprints and set sprint goals and chaired agile rituals. Advocated for more robust tooling via automated code quality checks in CI.',
+                'Developed enterprise e-commerce software for top fashion brands, creating tooling, processes, and design methodology for design systems. Mentored junior developers through knowledge-sharing sessions. Scoped project requirements and regularly engaged with stakeholders in Stockholm, including designers, engineers, marketers, IT, and senior management. Advanced company goals, sold features, and enhanced client relations. Orchestrated sprints, set goals, and chaired agile rituals. Advocated for robust tooling with automated code quality checks in CI.',
             technologies: [
                 'React',
                 'Redux',
@@ -129,7 +129,7 @@ export default {
                 }
             ],
             description:
-                'Worked with designers, project managers and clients on e-commerce and web applications. Developed a cross platform mobile app for the Go Industrial museum group. Responsible for scoping timescales and taking ownership of complex project requirements to deliver robust, detail oriented experiences on time and within budget.',
+                'Collaborated with designers, project managers, and clients on e-commerce and web applications. Created a cross-platform mobile app for the Go Industrial museum group. Scoped timescales and took ownership of complex project requirements to deliver robust, detail-oriented experiences on time and within budget.',
             technologies: ['Angular2', 'Ionic', 'Javascript', 'PHP', 'SCSS']
         },
         {

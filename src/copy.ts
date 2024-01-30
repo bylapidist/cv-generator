@@ -26,7 +26,7 @@ export default {
                 }
             ],
             description:
-                'Led a high-performing team of engineers developing design systems and software for a fintech specializing in mortgages. Promoted an inclusive team culture, prioritising accessibility and research-driven development. Actively involved in talent acquisition, advocating a people-centric approach. Managed a smooth migration of the design system from Flow to TypeScript, ensuring enhanced safety and consistency. Successfully championed the adoption of the design system, integrating shareable components, code, and design tokens for improved efficiency. Collaborated with stakeholders to align digital strategies with business objectives.',
+                'Led a high-performing team of engineers developing design systems and software for a fintech specialising in mortgages. Promoted an inclusive team culture, prioritising accessibility and research-driven development. Actively involved in talent acquisition, advocating a people-centric approach. Managed a smooth migration of the design system from Flow to TypeScript, ensuring enhanced safety and consistency. Successfully championed the adoption of the design system, integrating shareable components, code, and design tokens for improved efficiency. Collaborated with stakeholders to align digital strategies with business objectives.',
             technologies: [
                 'React',
                 'Redux',

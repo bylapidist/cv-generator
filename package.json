@@ -39,7 +39,7 @@
         "prepublishOnly": "npm run build"
     },
     "dependencies": {
-        "@react-pdf/renderer": "3.3.6",
+        "@react-pdf/renderer": "3.3.7",
         "react": "18.2.0"
     },
     "devDependencies": {

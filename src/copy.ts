@@ -79,7 +79,7 @@ export default {
                 }
             ],
             description:
-                'Developed software for the funeral industry within the Product and Innovation team. Transitioned products to a design system and component-based workflow. Enhanced code quality with CI tooling, boosted developer productivity by automating release cycles and adopting semver, and modernized legacy C# applications. Advocated for accessibility and inclusive design principles, mentoring junior team members on best practices.',
+                'Developed software for the funeral industry within the Product and Innovation team. Transitioned products to a design system and component-based workflow. Enhanced code quality with CI tooling, boosted developer productivity by automating release cycles and adopting semver, and modernised legacy C# applications. Advocated for accessibility and inclusive design principles, mentoring junior team members on best practices.',
             technologies: [
                 'Vue',
                 'Vuex',

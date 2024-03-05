@@ -5,81 +5,53 @@ export const styles = StyleSheet.create({
         fontFamily: 'Montserrat',
         flexDirection: 'column',
         backgroundColor: '#FFFFFF',
-        marginVertical: 28
+        marginVertical: 20
+    },
+    header: {
+        marginHorizontal: 20,
+        marginBottom: 8,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center'
     },
     name: {
         fontWeight: 'bold',
-        fontSize: 14
-    },
-    title: {
-        fontSize: 10,
-        marginBottom: 12
-    },
-    header: {
-        marginHorizontal: 42
-    },
-    section: {
-        marginHorizontal: 42,
-        fontSize: 9,
-        lineHeight: 1.5,
-        marginBottom: 12
-    },
-    sectionHeader: {
-        fontWeight: 'bold',
-        fontSize: 11,
-        marginBottom: 0
-    },
-    job: {
-        marginBottom: 12,
-        display: 'flex',
-        flexDirection: 'row',
-        flexWrap: 'wrap'
+        fontSize: 12,
+        marginBottom: 3
     },
     contact: {
+        fontSize: 8,
+        marginBottom: 6
+    },
+    section: {
+        marginHorizontal: 20,
+        fontSize: 8,
+        lineHeight: 1.5,
+        marginBottom: 6
+    },
+    sectionHeader: {
+        fontWeight: 'semibold',
+        fontSize: 8,
+        marginBottom: 4,
+        lineHeight: 1.6,
+        borderBottom: '0.25px solid black'
+    },
+    semibold: {
+        fontWeight: 'semibold'
+    },
+    experienceHeader: {
         display: 'flex',
         flexDirection: 'row',
-        flexWrap: 'wrap'
+        justifyContent: 'space-between'
     },
-    primaryContact: {
+    column: {
         display: 'flex',
-        flexDirection: 'column',
-        width: '70%'
+        flexDirection: 'row'
     },
-    secondaryContact: {
-        flexDirection: 'column'
+    list: {
+        width: '90%'
     },
-    primaryPosition: {
-        fontWeight: 'medium',
-        fontSize: 10,
-        display: 'flex',
-        flexDirection: 'column',
-        width: '70%'
-    },
-    position: {
-        fontWeight: 'medium',
-        fontSize: 9,
-        display: 'flex',
-        flexDirection: 'column',
-        width: '70%',
-        paddingLeft: 8,
-        borderLeftStyle: 'solid',
-        borderLeftWidth: 2,
-        borderLeftColor: '#f1f1f1'
-    },
-    duration: {
-        fontWeight: 'normal',
-        fontSize: 8,
-        flexDirection: 'column'
-    },
-    description: {
-        width: '100%',
-        marginBottom: 2
-    },
-    technologies: {
-        width: '100%',
-        fontSize: 8
-    },
-    technologiesHeader: {
-        fontWeight: 'semibold'
+    experience: {
+        marginBottom: 4
     }
 });

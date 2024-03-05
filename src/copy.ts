@@ -111,7 +111,7 @@ const EXPERIENCES = [
         from: '2016',
         to: '2017',
         bullets: [
-            'Assumed responsibility for managing intricate project needs and estimating timelines, resulting in the prompt and cost-effective delivery of thorough, detail-oriented experiences.',
+            'Assumed responsibility for managing intricate project needs and estimating timelines, resulting in the prompt and cost effective delivery of thorough, detail-oriented experiences.',
             'Created a cross-platform mobile app for the Go Industrial museum group, using Iconic and Angular, to guarantee seamless operation on all devices.',
             'Engineered a social media platform for Craft Scotland, integrating job boards, profiles, e-commerce storefronts, and backend CMS tooling, demonstrating adeptness in creating multifaceted digital solutions.'
         ]

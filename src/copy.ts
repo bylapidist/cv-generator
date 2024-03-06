@@ -8,7 +8,7 @@ const SUMMARY = `With over 10 years of software development experience, I’ve l
 const SKILLS = [
     {
         title: 'Languages',
-        skills: ['JavaScript', 'TypeScript', 'PHP', 'C#']
+        skills: ['JavaScript', 'TypeScript', 'PHP']
     },
     {
         title: 'Frameworks',
@@ -18,8 +18,7 @@ const SKILLS = [
             'Next',
             'Gatsby',
             'Symfony',
-            'Angular',
-            'ASP.NET'
+            'Angular'
         ]
     },
     {

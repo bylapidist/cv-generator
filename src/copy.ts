@@ -12,14 +12,7 @@ const SKILLS = [
     },
     {
         title: 'Frameworks',
-        skills: [
-            'React',
-            'Vue',
-            'Next',
-            'Gatsby',
-            'Symfony',
-            'Angular'
-        ]
+        skills: ['React', 'Vue', 'Next', 'Gatsby', 'Symfony', 'Angular']
     },
     {
         title: 'Styling',

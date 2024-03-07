@@ -1,38 +1,49 @@
 import { StyleSheet } from '@react-pdf/renderer';
 
+const MARGINS = {
+    PAGE: 28,
+    HEADER: 4,
+    SPACER: 3,
+    SECTION: 10
+};
+
+const FONT_SIZES = {
+    BODY: 8.5,
+    HEADER: 10
+};
 export const styles = StyleSheet.create({
     page: {
         fontFamily: 'Montserrat',
         flexDirection: 'column',
         backgroundColor: '#FFFFFF',
-        marginVertical: 20
+        marginVertical: MARGINS.PAGE
     },
     header: {
-        marginHorizontal: 20,
-        marginBottom: 8,
+        marginHorizontal: MARGINS.PAGE,
+        marginBottom: MARGINS.SECTION,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center'
     },
     name: {
         fontWeight: 'bold',
-        fontSize: 12,
-        marginBottom: 3
+        fontSize: FONT_SIZES.HEADER,
+        marginBottom: MARGINS.SPACER
     },
     contact: {
-        fontSize: 8,
-        marginBottom: 6
+        fontSize: FONT_SIZES.BODY,
+        marginBottom: MARGINS.HEADER
     },
     section: {
-        marginHorizontal: 20,
-        fontSize: 8,
+        marginHorizontal: MARGINS.PAGE,
+        fontSize: FONT_SIZES.BODY,
         lineHeight: 1.5,
-        marginBottom: 6
+        marginBottom: MARGINS.SECTION
     },
     sectionHeader: {
         fontWeight: 'semibold',
-        fontSize: 8,
-        marginBottom: 4,
+        fontSize: FONT_SIZES.BODY,
+        marginBottom: MARGINS.SECTION,
         lineHeight: 1.6,
         borderBottom: '0.25px solid black'
     },
@@ -42,16 +53,17 @@ export const styles = StyleSheet.create({
     experienceHeader: {
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        marginBottom: MARGINS.SPACER
     },
     column: {
         display: 'flex',
         flexDirection: 'row'
     },
     list: {
-        width: '90%'
+        width: '80%'
     },
     experience: {
-        marginBottom: 4
+        marginBottom: MARGINS.SECTION
     }
 });

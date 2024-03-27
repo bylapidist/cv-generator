@@ -1,14 +1,7 @@
-const HEADER = {
-    name: 'Brett Dorrans',
-    contact: ['hello@lapidist.net', 'lapidist.net', 'github.com/bylapidist']
-};
-
-const SUMMARY = `With over 10 years of software development experience, I’ve led diverse teams in creating high-quality products with a focus on accessibility and inclusive design. I collaborate closely with stakeholders to decipher requirements, align strategies, and promote best practices, fostering a culture of excellence and delivering work to the highest standard.`;
-
 const SKILLS = [
     {
         title: 'Languages',
-        skills: ['JavaScript', 'TypeScript', 'PHP']
+        skills: ['JavaScript', 'TypeScript', 'PHP', 'HTML']
     },
     {
         title: 'Frameworks',
@@ -121,31 +114,12 @@ const EXPERIENCES = [
             'Facilitated skill development and efficiency through training sessions on internal software.',
             'Developed an online magazine from concept to serving 85k users per month.',
             'Ensured project success by working with stakeholders at all levels to assess client requirements, plan communication, and suggest best practices for putting commercial ideas into action.',
-            'Managed lifecycle including scoping, costing, and timescales, ensuring timely and economical delivery.'
-        ]
-    }
-];
-
-const PROJECTS = [
-    {
-        title: '@lapidist/components',
-        url: 'github.com/bylapidist/components',
-        from: '2019',
-        to: 'Present',
-        bullets: [
-            'Nascent design system and React component library used for personal projects.',
-            'An effort to professionalise my personal practice, and experiment with new techniques.',
-            'The Storybook and documentation are available from https://components.lapidist.net',
-            'Migrated from Styled Components to CSS modules with v9 in 2023.',
-            'Builds upon design tokens defined within https://github.com/bylapidist/styles'
+            'Managed lifecycle including scoping, costing, and timescales, ensuring economical delivery.'
         ]
     }
 ];
 
 export default {
-    HEADER,
-    SUMMARY,
     SKILLS,
-    PROJECTS,
     EXPERIENCES
 };

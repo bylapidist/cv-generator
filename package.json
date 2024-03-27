@@ -27,7 +27,8 @@
     "scripts": {
         "lint": "eslint . --ext js,ts,tsx",
         "fix": "eslint --fix . --ext js,ts,tsx",
-        "watch": "cross-env NODE_ENV=development tsc -w",
+        "watch": "cross-env NODE_ENV=development nodemon --watch src -e tsx,ts --exec 'npm run build'",
+        "typecheck": "cross-env NODE_ENV=development tsc -w",
         "watch:tests": "cross-env NODE_ENV=test jest --watch",
         "clean": "rimraf dist",
         "build": "npm run clean && npm run build:es5 && npm run build:pdf",
@@ -50,6 +51,7 @@
         "husky": "9.0.11",
         "jest": "29.7.0",
         "lint-staged": "15.2.2",
+        "nodemon": "3.1.0",
         "rimraf": "5.0.5",
         "ts-jest": "29.1.2",
         "typedoc": "0.25.12",

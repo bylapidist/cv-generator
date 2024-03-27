@@ -1,49 +1,46 @@
 import { StyleSheet } from '@react-pdf/renderer';
 
-const MARGINS = {
+export const margins = {
     PAGE: 28,
     HEADER: 4,
     SPACER: 3,
     SECTION: 10
 };
 
-const FONT_SIZES = {
-    BODY: 8.5,
-    HEADER: 10
+export const fontSizes = {
+    body: '16px',
+    header: 10
+};
+
+export const colours = {
+    white: '#FFFFFF',
+    black: 'rgb(41, 43, 62)',
+    grey: 'rgb(242, 242, 242)',
+    darkGrey: 'rgb(115, 116, 139)',
+    green: 'rgb(114, 175, 93)',
+    blue: 'rgb(23, 163, 165)',
+    yellow: 'rgb(235, 199, 100)'
 };
 export const styles = StyleSheet.create({
     page: {
         fontFamily: 'Montserrat',
+        fontSize: '16px',
+        lineHeight: '1.5',
         flexDirection: 'column',
-        backgroundColor: '#FFFFFF',
-        marginVertical: MARGINS.PAGE
-    },
-    header: {
-        marginHorizontal: MARGINS.PAGE,
-        marginBottom: MARGINS.SECTION,
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center'
-    },
-    name: {
-        fontWeight: 'bold',
-        fontSize: FONT_SIZES.HEADER,
-        marginBottom: MARGINS.SPACER
-    },
-    contact: {
-        fontSize: FONT_SIZES.BODY,
-        marginBottom: MARGINS.HEADER
+        color: colours.black,
+        backgroundColor: colours.grey,
+        padding: '48px'
     },
     section: {
-        marginHorizontal: MARGINS.PAGE,
-        fontSize: FONT_SIZES.BODY,
+        marginHorizontal: margins.PAGE,
+        fontSize: fontSizes.body,
         lineHeight: 1.5,
-        marginBottom: MARGINS.SECTION
+        marginBottom: margins.SECTION
     },
     sectionHeader: {
         fontWeight: 'semibold',
-        fontSize: FONT_SIZES.BODY,
-        marginBottom: MARGINS.SECTION,
+        fontSize: fontSizes.body,
+        marginBottom: margins.SECTION,
         lineHeight: 1.6,
         borderBottom: '0.25px solid black'
     },
@@ -54,7 +51,7 @@ export const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
-        marginBottom: MARGINS.SPACER
+        marginBottom: margins.SPACER
     },
     column: {
         display: 'flex',
@@ -64,6 +61,6 @@ export const styles = StyleSheet.create({
         width: '80%'
     },
     experience: {
-        marginBottom: MARGINS.SECTION
+        marginBottom: margins.SECTION
     }
 });

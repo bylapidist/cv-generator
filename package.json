@@ -54,7 +54,7 @@
         "nodemon": "3.1.0",
         "rimraf": "5.0.5",
         "ts-jest": "29.1.2",
-        "typedoc": "0.25.12",
+        "typedoc": "0.25.13",
         "typescript": "5.4.4"
     },
     "engines": {

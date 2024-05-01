@@ -4,7 +4,7 @@ import { Polygon, Svg } from '@react-pdf/renderer';
 export default function Logo() {
     return (
         <Svg
-            style={{ width: 64, height: 64 }}
+            style={{ width: 48, height: 48 }}
             viewBox="0 0 64 64"
             preserveAspectRatio="none"
         >

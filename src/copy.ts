@@ -42,6 +42,14 @@ const SKILLS = [
 
 const EXPERIENCES = [
     {
+        title: 'Senior Software Developer',
+        company: 'Encompass',
+        location: 'Glasgow, United Kingdom (remote)',
+        from: '2024',
+        to: 'Present',
+        bullets: []
+    },
+    {
         title: 'Senior Software Engineer',
         company: 'LendInvest',
         location: 'London, United Kingdom (remote)',

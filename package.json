@@ -46,7 +46,7 @@
     "devDependencies": {
         "@lapidist/linting": "3.23.11",
         "@types/jest": "29.5.12",
-        "@types/react": "18.3.3",
+        "@types/react": "18.3.4",
         "cross-env": "7.0.3",
         "husky": "9.1.5",
         "jest": "29.7.0",
